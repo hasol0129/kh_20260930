@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #111;
+}
+
+
+/* 상단 */
+
+header {
+    height: 40px;
+    background-color: #333;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 18px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+nav a:nth-child(2) {
+    color: yellow;
+}
+
+
+/* 페이지 제목 */
+
+.title {
+    height: 95px;
+    background-color: #ddd;
+    padding: 20px 18px;
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.title p {
+    margin: 3px 0;
+    color: #777;
+    font-size: 13px;
+}
+
+
+/* 본문 */
+
+main {
+    padding: 30px 17px;
+}
+
+section {
+    margin-bottom: 26px;
+}
+
+section h3 {
+    margin: 0 0 14px 0;
+    padding: 5px 10px;
+
+    background-color: #eee;
+    border-left: 4px solid #333;
+
+    font-size: 17px;
+}
+
+
+/* 메뉴 카드 */
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.menu-item {
+    width: 25%;
+    border: 1px solid #aaa;
+}
+
+.menu-img {
+    height: 116px;
+
+    background-color: #bbb;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #777;
+    font-size: 13px;
+}
+
+.menu-info {
+    height: 70px;
+    padding: 5px 8px;
+}
+
+.menu-info strong {
+    display: block;
+    font-size: 14px;
+}
+
+.menu-info p {
+    margin: 2px 0;
+    font-size: 13px;
+}
+
+.menu-info b {
+    color: red;
+    font-size: 14px;
+}
+
+
+/* 안내문구 */
+
+main > p {
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+
+/* 하단 */
+
+footer {
+    background-color: #333;
+    color: white;
+
+    padding: 12px 18px;
+
+    font-size: 11px;
+}
+
+footer p {
+    margin: 2px 0;
+}

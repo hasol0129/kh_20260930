@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #111;
+}
+
+
+/* 상단 */
+
+header {
+    height: 40px;
+    background-color: #333;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 18px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+nav a:first-child {
+    color: yellow;
+}
+
+
+/* 환영 영역 */
+
+.welcome {
+    height: 255px;
+    background-color: #ddd;
+
+    text-align: center;
+
+    padding-top: 80px;
+}
+
+.welcome h2 {
+    margin: 0 0 15px 0;
+    font-size: 25px;
+}
+
+.welcome p {
+    margin: 0 0 25px 0;
+    font-size: 13px;
+}
+
+.menu-button {
+    display: inline-block;
+
+    border: 1px solid #999;
+    background-color: #eee;
+
+    padding: 8px 18px;
+
+    color: #111;
+    text-decoration: none;
+
+    font-size: 13px;
+}
+
+
+/* 본문 */
+
+main {
+    padding: 30px 17px;
+}
+
+.home-section {
+    margin-bottom: 65px;
+}
+
+.home-section h3 {
+    margin: 0 0 16px 0;
+    padding-bottom: 5px;
+
+    border-bottom: 2px solid #111;
+
+    font-size: 20px;
+}
+
+
+/* 추천 메뉴 */
+
+.menu-list {
+    display: flex;
+    gap: 30px;
+}
+
+.menu-item {
+    width: 25%;
+    border: 1px solid #aaa;
+}
+
+.menu-img {
+    height: 126px;
+
+    background-color: #bbb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #777;
+    font-size: 13px;
+}
+
+.menu-info {
+    height: 70px;
+    padding: 5px 8px;
+}
+
+.menu-info strong {
+    display: block;
+    font-size: 14px;
+}
+
+.menu-info p {
+    margin: 2px 0;
+    font-size: 13px;
+}
+
+.menu-info b {
+    color: red;
+    font-size: 14px;
+}
+
+
+/* 카페 소개 */
+
+.cafe-intro {
+    display: flex;
+    gap: 78px;
+}
+
+.cafe-image {
+    width: 40%;
+    height: 168px;
+
+    background-color: #bbb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #777;
+    font-size: 13px;
+}
+
+.cafe-text {
+    padding-top: 10px;
+}
+
+.cafe-text p {
+    margin: 0 0 15px 0;
+    font-size: 13px;
+}
+
+.cafe-text table {
+    border-collapse: collapse;
+}
+
+.cafe-text th,
+.cafe-text td {
+    border: 1px solid #aaa;
+    padding: 5px 12px;
+
+    text-align: center;
+
+    font-size: 13px;
+}
+
+
+/* 하단 */
+
+footer {
+    background-color: #333;
+    color: white;
+
+    padding: 12px 18px;
+
+    font-size: 11px;
+}
+
+footer p {
+    margin: 2px 0;
+}
